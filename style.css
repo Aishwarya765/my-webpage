@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Navigation bar */
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Button example */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
